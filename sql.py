@@ -3,7 +3,7 @@ import psycopg2
 
 db = psycopg2.connect(
     host='ec2-3-213-102-175.compute-1.amazonaws.com',
-    database='db5d6qngk856a5',
+    database='d5r3vf6s48dgvv',
     port='5432',
     user='aymgvugjhvnutc',
     password='a60532153347a5db87b1a3ad4191e2990164b9bcf2fa95deb4b7461fcfe8f9a8')
