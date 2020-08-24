@@ -25,9 +25,9 @@ def login():
          password = request.form.get('pass')
          if sql.authenticateUser(uname, password):
             session['login'] = uname
-            return sql.getApiKey(uname)
+            return sql.getApiKey(uname)[0]
    else:
-      return sql.getApiKey(session["login"])
+      return sql.getApiKey(session["login"])[0]
 
    return render_template('signup.html', purpose='Login')
 
