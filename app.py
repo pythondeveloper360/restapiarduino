@@ -27,7 +27,7 @@ def login():
             session['login'] = uname
             return sql.getApiKey(uname)
    else:
-      return(sql.getApiKey(session['login']))
+      return sql.getApiKey(session["login"])
 
    return render_template('signup.html', purpose='Login')
 
