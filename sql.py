@@ -2,7 +2,7 @@ import uuid
 import psycopg2
 
 db = psycopg2.connect(
-    host='ec2-3-213-102-175.compute-1.amazonaws.com',
+    host='ec2-54-160-120-28.compute-1.amazonaws.com',
     database='d5r3vf6s48dgvv',
     port='5432',
     user='aymgvugjhvnutc',
