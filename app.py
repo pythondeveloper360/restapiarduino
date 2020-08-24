@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, redirect, session, abort, jsonify, make_response
 import sql
-app = Flask('__main__')
+app = Flask(__name__,template_folder='teplate')
 
 
 @app.route('/', methods=["GET", "POST"])
