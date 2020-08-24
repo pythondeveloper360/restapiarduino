@@ -5,8 +5,8 @@ db = psycopg2.connect(
     host='ec2-3-213-102-175.compute-1.amazonaws.com',
     database='db5d6qngk856a5',
     port='5432',
-    user='vyqyaeriinmhhj',
-    password='c8fcb209e20cb2fab624757d29123ded4816f94502f67ea6e1d1c304f1054477')
+    user='aymgvugjhvnutc',
+    password='a60532153347a5db87b1a3ad4191e2990164b9bcf2fa95deb4b7461fcfe8f9a8')
 cursor = db.cursor()
 
 
