@@ -69,5 +69,3 @@ def alterValue(apikey,id,value):
     else:
         return False    
     
-
-#
