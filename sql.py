@@ -24,7 +24,7 @@ def presenceOfUser(username):
     return True if data else False
 
 def authenticateUser(username,password):
-    sqlquery = f"""select * from users where "username"  = '{username}' and "pasword" = '{password}';"""
+    sqlquery = f"""select * from users where "username"  = '{username}' and "password" = '{password}';"""
     cursor.execute(sqlquery)
     data = cursor.fetchone()
     return True if data else False
