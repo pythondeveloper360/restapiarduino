@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, redirect, session, abort, jsonify, make_response
 import sql
-app = Flask(__name__,template_folder='teplate')
+app = Flask(__name__)
+app.secret_key = "hazala"
 
 
 @app.route('/', methods=["GET", "POST"])
