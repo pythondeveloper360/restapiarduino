@@ -17,7 +17,7 @@ def main():
    return render_template('signup.html', purpose='Sign Up')
 
 
-@app.route('/login')
+@app.route('/login',methods = ["GET","POST"])
 def login():
    if 'login' not in session:
       if request.method == "POST":
